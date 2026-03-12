@@ -1,5 +1,5 @@
 <h1>
-  Alang — Arabic Programming Language <br>
+  Alang — Arabic Programming Language 
   <img src="AlangMascut.png" width="60"/>
 </h1>
 
