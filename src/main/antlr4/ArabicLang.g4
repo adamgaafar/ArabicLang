@@ -64,39 +64,5 @@ primary
     ;
 
 // Lexer Rules
-STRING : '"' ~["\r\n]* '"' ;
-NUMBER : [0-9]+ ('.' [0-9]+)? ;
-
-VAR    : 'عرف' ;
-PRINT  : 'اطبع' ;
-IF     : 'اذا' ;
-ELSE   : 'وإلا' ;
-WHILE  : 'طالما' ;
-RETURN : 'ارجع' ;
-
-COMMENT : '#' ~[\r\n]* -> skip ;
-
-SEMI   : ';' ;
-RBRACE : '}' ;
-LBRACE : '{' ;
-LPAREN : '(' ;
-RPAREN : ')' ;
-
-PLUS   : '+' ;
-MINUS  : '-' ;
-MULT   : '*' ;
-DIV    : '/' ;
-
-GTE    : '>=' ;
-LTE    : '<=' ;
-EQ     : '==' ;
-NEQ    : '!=' ;
-GT     : '>' ;
-LT     : '<' ;
-ASSIGN : '=' ;
-
-WS      : [ \t]+ -> skip ;
-NEWLINE : ('\r'? '\n')+ -> skip ;
-
-IDENTIFIER : [\u0621-\u064A_][\u0621-\u064A0-9_]* ;
+build on the generator 
 
