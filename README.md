@@ -1,8 +1,6 @@
-<div align="center">
-  <div style="display: flex; align-items: center; justify-content: center; gap: 12px;">
-    <img src="AlangMascut.png" width="60">
-    <h1 style="margin:0;">Alang — Arabic Programming Language</h1>
-  </div>
+<div align="center" style="display:flex; align-items:center; justify-content:center; gap:12px;">
+  <img src="AlangMascut.png" width="60">
+  <h1 style="margin:0;">Alang — Arabic Programming Language</h1>
 </div>
 
 **Alang** is an experimental programming language written **entirely in Arabic**.
