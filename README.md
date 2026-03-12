@@ -1,5 +1,7 @@
-# Alang — Arabic Programming Language
-
+<h1>
+  Alang — Arabic Programming Language
+  <img src="AlangMascut.png" width="60"/>
+</h1>
 
 **Alang** is an experimental programming language written **entirely in Arabic**.
 
