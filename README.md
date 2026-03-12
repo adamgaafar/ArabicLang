@@ -1,9 +1,9 @@
-<p align="center">
-  <img src="AlangMascut.png" width="60" style="vertical-align: middle; margin-right:10px;">
-  <span style="font-size:32px; font-weight:bold; vertical-align: middle;">
-    Alang — Arabic Programming Language
-  </span>
-</p>
+<h1>
+  Alang — Arabic Programming Language
+  <img src="AlangMascut.png" width="60" align="right">
+</h1>
+
+
 **Alang** is an experimental programming language written **entirely in Arabic**.
 
 It supports:
