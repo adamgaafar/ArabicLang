@@ -12,7 +12,7 @@ target/
 *.iws
 *.iml
 *.ipr
-
+.C:\Users\adamgaafar\Documents\Projects\Alang\src\main\antlr4\ArabicLang.g4
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -37,3 +37,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+src/main/antlr4/ArabicLang.g4
