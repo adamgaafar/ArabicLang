@@ -51,6 +51,10 @@ Current features include:
 10
 اكبر من خمسة
 ```
+
+
+<img src="Screenshot 2026-03-13 021041.png" width="60" align="center">
+
 # Requirements
 
 To run **Alang** you need:
