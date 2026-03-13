@@ -53,7 +53,7 @@ Current features include:
 ```
 
 
-<img src="Screenshot 2026-03-13 021041.png" width="600" align="center">
+<img src="Screenshot 2026-03-13 021041.png" width="800" align="center">
 
 # Requirements
 
