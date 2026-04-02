@@ -3,39 +3,51 @@ import org.antlr.v4.runtime.tree.ParseTree;
 
 public class ArabicLangCLI {
     public static void main(String[] args) {
+        if (args.length != 1) {
+            System.out.println("Usage: Alang <file.alam>");
+            return;
+        }
+
+        String filePath = args[0];
+
+        if (!filePath.endsWith(".alam")) {
+            System.out.println("Error: file must have .alam extension");
+            return;
+        }
+
         try {
-            if (args.length != 1) {
-                System.out.println("Usage: Alang <file.alam>");
-                return;
-            }
-
-            String filePath = args[0];
-
-            if (!filePath.endsWith(".alam")) {
-                System.out.println("Error: file must have .alam extension");
-                return;
-            }
-
             CharStream input = CharStreams.fromFileName(filePath);
 
             ArabicLangLexer lexer = new ArabicLangLexer(input);
             CommonTokenStream tokens = new CommonTokenStream(lexer);
             ArabicLangParser parser = new ArabicLangParser(tokens);
 
-            ParseTree tree = parser.program();
+            parser.removeErrorListeners();
+            parser.addErrorListener(new BaseErrorListener() {
+                @Override
+                public void syntaxError(
+                        Recognizer<?, ?> recognizer,
+                        Object offendingSymbol,
+                        int line,
+                        int charPositionInLine,
+                        String msg,
+                        RecognitionException e
+                ) {
+                    throw new RuntimeException(
+                            "Syntax error at line " + line + ":" + charPositionInLine + " -> " + msg
+                    );
+                }
+            });
 
-            if (parser.getNumberOfSyntaxErrors() > 0) {
-                System.out.println("Parsing failed due to syntax errors.");
-                return;
-            }
+            ParseTree tree = parser.program();
 
             Interpreter interpreter = new Interpreter();
             interpreter.visit(tree);
 
-            System.out.println("Execution finished.");
-
         } catch (Exception e) {
-            e.printStackTrace();
+            if (e.getMessage().contains("Array index out"))
+                System.out.println("هذيه المصفوفة غارج نتطاق البحث");
+            System.out.println("Execution error: " + e.getMessage());
         }
     }
 }
