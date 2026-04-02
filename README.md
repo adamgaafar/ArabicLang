@@ -55,6 +55,9 @@ Current features include:
 
 <img src="Screenshot 2026-03-13 021041.png" width="800" align="center">
 
+
+<img src="pic1.png" width="800" align="center">
+
 # Requirements
 
 To run **Alang** you need:
