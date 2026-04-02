@@ -185,11 +185,7 @@ This project demonstrates:
 
 Planned improvements:
 
-- `وإلا` (else statements)  
-- Boolean values (`صح`, `خطأ`)  
-- Functions  
-- Return statements  
-- Logical operators  
+- `
 - Interactive REPL  
 - Better error messages  
 - Syntax highlighting support  
