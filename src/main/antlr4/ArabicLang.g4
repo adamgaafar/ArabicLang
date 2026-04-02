@@ -143,6 +143,7 @@ terminator
 
 // =========================
 // Lexer Rules
+
 // =========================
 
 VAR       : 'عرف' ;
@@ -206,6 +207,7 @@ IDENTIFIER
 WS
     : [ \t]+ -> skip
     ;
+
 
 NEWLINE
     : ('\r'? '\n')+ -> skip
