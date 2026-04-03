@@ -195,11 +195,11 @@ Planned improvements:
 
 ## 💬 Community
 
-[![Discord](https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jS2QXu4dF)
-
 Join the ArabicLang community on Discord:
 
 👉 https://discord.gg/jS2QXu4dF
+
+[![Discord](https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jS2QXu4dF)
 
 Ask questions, share ideas, and help shape the future of Arabic programming 🚀
 
