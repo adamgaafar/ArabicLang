@@ -187,7 +187,6 @@ This project demonstrates:
 
 Planned improvements:
 
-- `
 - Interactive REPL  
 - Better error messages  
 - Syntax highlighting support  
