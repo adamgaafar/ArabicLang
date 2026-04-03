@@ -6,6 +6,8 @@
 
 **Alang** is an experimental programming language written **entirely in Arabic**.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J01X6KA9)
+
 It supports:
 
 - Arabic keywords
