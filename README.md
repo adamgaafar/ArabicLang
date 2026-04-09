@@ -20,6 +20,23 @@ The goal of Alang is to explore programming language design using a **fully Arab
 
 ---
 
+## 📸 Project Screenshots
+
+<p align="center">
+  <img src="Screenshot 2026-04-09 231955.png" width="45%" />
+  <img src="Screenshot 2026-04-09 232019.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="Screenshot 2026-04-09 232050.png" width="45%" />
+  <img src="Screenshot 2026-04-09 232138.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="Screenshot 2026-04-09 232227.png" width="45%" />
+  <img src="Screenshot 2026-04-09 232244.png" width="45%" />
+</p>
+
 # Features
 
 Current features include:
